@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8" />
+		<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<title>Article Preview Component</title>
+		<link
+			rel="shortcut icon"
+			href="./public/images/favicon-32x32.png"
+			type="image/x-icon"
+		/>
+		<link rel="stylesheet" href="./dist/css/style.min.css" />
+		<link rel="preconnect" href="https://fonts.gstatic.com" />
+		<link
+			href="https://fonts.googleapis.com/css2?family=Manrope:wght@500;700&display=swap"
+			rel="stylesheet"
+		/>
+	</head>
+	<body>
+		<main class="main">
+			<div class="container">
+				<div class="article">
+					<img
+						src="./public/images/drawers.jpg"
+						alt="Drawers"
+						class="article__img"
+					/>
+					<div class="article__info">
+						<h3 class="article__title">
+							Shift the overall look and feel by adding these
+							wonderful touches to furniture in your home
+						</h3>
+						<p class="article__description">
+							Ever been in a room and felt like something was
+							missing? Perhaps it felt slightly bare and
+							uninviting. I’ve got some simple tips to help you
+							make any room feel complete.
+						</p>
+						<div class="article__creator">
+							<div class="article__meta">
+								<img
+									src="./public/images/avatar-michelle.jpg"
+									alt="Avatar"
+									class="article__writer-avatar"
+								/>
+								<div class="article__writer-detail">
+									<p class="article__writer-name">
+										Michelle Appleton
+									</p>
+									<p class="article__date-publish">
+										28 Jun 2020
+									</p>
+								</div>
+							</div>
+							<button
+								class="article__button-share"
+								id="button-share"
+							>
+								<img
+									src="./public/images/icon-share.svg"
+									alt="Icon Share"
+								/>
+							</button>
+						</div>
+					</div>
+					<div class="article__share-options" id="share-options">
+						<p class="article__share-label">SHARE</p>
+						<a href="#" class="article__share-link">
+							<img
+								src="./public/images/icon-facebook.svg"
+								alt="Icon Facebook"
+								class="article__icon"
+							/>
+						</a>
+						<a href="#" class="article__share-link">
+							<img
+								src="./public/images/icon-twitter.svg"
+								alt="Icon Twitter"
+								class="article__icon"
+							/>
+						</a>
+						<a href="#" class="article__share-link">
+							<img
+								src="./public/images/icon-pinterest.svg"
+								alt="Icon Pinterest"
+								class="article__icon"
+							/>
+						</a>
+					</div>
+				</div>
+			</div>
+		</main>
+		<script src="./dist/js/script.js"></script>
+	</body>
+</html>
